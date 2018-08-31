@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void open(View v) {
 
-        ImageView s1= (ImageView) findViewById(R.id.imageid1);
+      //  ImageView s1= (ImageView) findViewById(R.id.imageid1);
       //  v.setOnClickListener("A");
     }
 }

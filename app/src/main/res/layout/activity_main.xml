@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,15 +15,17 @@
         android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:background="@drawable/border"
         android:orientation="horizontal"
 
     android:weightSum="4">
 
         <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s11"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/border"
             android:scaleType="centerInside"
             android:visibility="visible"
             app:srcCompat="@drawable/square"
@@ -33,46 +34,18 @@
             />
 
         <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s12"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="open"
             android:scaleType="centerInside"
             android:visibility="visible"
             app:srcCompat="@drawable/square" />
 
 
         <ImageView
-            android:id="@+id/s1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="centerInside"
-            android:visibility="visible"
-            app:srcCompat="@drawable/square" />
-
-        <ImageView
-            android:id="@+id/s1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="centerInside"
-            android:visibility="visible"
-            app:srcCompat="@drawable/square" />
-
-    </LinearLayout>
-
-    <LinearLayout
-
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:weightSum="4">
-
-        <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s13"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -81,26 +54,7 @@
             app:srcCompat="@drawable/square" />
 
         <ImageView
-            android:id="@+id/s1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="centerInside"
-            android:visibility="visible"
-            app:srcCompat="@drawable/square" />
-
-
-        <ImageView
-            android:id="@+id/s1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="centerInside"
-            android:visibility="visible"
-            app:srcCompat="@drawable/square" />
-
-        <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s14"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -120,7 +74,7 @@
         android:weightSum="4">
 
         <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s21"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -129,7 +83,7 @@
             app:srcCompat="@drawable/square" />
 
         <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s22"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -139,7 +93,7 @@
 
 
         <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s23"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -148,7 +102,55 @@
             app:srcCompat="@drawable/square" />
 
         <ImageView
-            android:id="@+id/s1"
+            android:id="@+id/s24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:srcCompat="@drawable/square" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/s31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/s32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:srcCompat="@drawable/square" />
+
+
+        <ImageView
+            android:id="@+id/s33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/s34"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
